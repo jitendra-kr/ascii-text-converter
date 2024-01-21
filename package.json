@@ -1,0 +1,33 @@
+{
+  "name": "ascii-text-converter",
+  "version": "1.0.0",
+  "description": "A light-weight npm module designed to facilitate seamless conversions between ASCII and text",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitendra-kr/ascii-text-converter.git"
+  },
+  "keywords": [
+    "ASCII to Text",
+    "ASCII to Text converter",
+    "Text to ASCII",
+    "Text to ASCII converter",
+    "ASCII",
+    "Text"
+  ],
+  "author": "jitendra-kr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitendra-kr/ascii-text-converter/issues"
+  },
+  "homepage": "https://github.com/jitendra-kr/ascii-text-converter#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
