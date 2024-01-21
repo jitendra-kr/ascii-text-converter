@@ -1,13 +1,13 @@
 {
   "name": "ascii-text-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A light-weight npm module designed to facilitate seamless conversions between ASCII and text",
   "main": "dist/index.js",
   "types": "dist/index.types.d.ts",
   "scripts": {
     "test": "vitest",
     "build": "tsc",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -31,10 +31,5 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "vitest": "^1.2.1"
-  },
-  "files": [
-    "package.json",
-    "dist",
-    "src"
-  ]
+  }
 }
