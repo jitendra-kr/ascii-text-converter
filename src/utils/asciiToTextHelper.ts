@@ -1,4 +1,4 @@
-import { AsciiToTextType } from "../types";
+import { AsciiToTextType } from "../types/types";
 
 function decimalASCIIToText(ascii: string) {
   const asciiArray = ascii
