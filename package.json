@@ -3,7 +3,6 @@
   "version": "1.0.6",
   "description": "A light-weight npm module designed to facilitate seamless conversions between ASCII and text",
   "main": "dist/index.js",
-  "types": "dist/types/types.d.ts",
   "scripts": {
     "test": "vitest",
     "build": "tsc",
