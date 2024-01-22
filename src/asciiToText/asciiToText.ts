@@ -1,4 +1,4 @@
-import { AsciiInputText, AsciiToTextOptions } from "../index.types";
+import { AsciiInputText, AsciiToTextOptions } from "../types";
 import { asciiToTextFn } from "../utils";
 
 export function asciiToText(
