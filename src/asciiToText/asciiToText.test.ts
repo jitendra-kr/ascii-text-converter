@@ -17,6 +17,10 @@ describe("asciiToText function", () => {
         text: "Helo",
         ascii: "72 101 xyz 108 111",
       },
+      {
+        text: "",
+        ascii: "",
+      }
     ];
     for (let index = 0; index < testData.length; index++) {
       const element = testData[index];
@@ -35,6 +39,10 @@ describe("asciiToText function", () => {
         text: "Only robots speak binary!",
         ascii: "01001111 01101110 01101100 01111001 00100000 01110010 01101111 01100010 01101111 01110100 01110011 00100000 01110011 01110000 01100101 01100001 01101011 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00100001",
       },
+      {
+        text: "",
+        ascii: "",
+      }
     ];
     for (let index = 0; index < testData.length; index++) {
       const element = testData[index];
@@ -49,6 +57,10 @@ describe("asciiToText function", () => {
         text: " fireboxtools.com",
         ascii: "40 146 151 162 145 142 157 170 164 157 157 154 163 56 143 157 155",
       },
+      {
+        text: "",
+        ascii: "",
+      }
     ];
     for (let index = 0; index < testData.length; index++) {
       const element = testData[index];
@@ -63,6 +75,10 @@ describe("asciiToText function", () => {
         text: "fireboxtools.com",
         ascii: "66 69 72 65 62 6F 78 74 6F 6F 6C 73 2E 63 6F 6D",
       },
+      {
+        text: "",
+        ascii: "",
+      }
     ];
     for (let index = 0; index < testData.length; index++) {
       const element = testData[index];
