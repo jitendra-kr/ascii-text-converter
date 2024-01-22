@@ -52,11 +52,14 @@ console.log(text);
 ```
 
 ## Features
-- Text to ASCII Conversion: This package can convert any text string into its corresponding ASCII code. This is helpful for text data encoding safely.
-- ASCII to Text Conversion: This package can also convert ASCII codes back into their corresponding text strings. This is helpful for safely decoding ASCII-encoded data.
-- Easy to use: The ASCII-Text Converter package is designed to be user-friendly and intuitive.
-- Efficient: This package performs ASCII-text conversions quickly and efficiently.
-- Versatile: Whether you need to convert ASCII to text or text to ASCII, this package has you covered.
+This package has some features that make it more robust and convenient than using the native JavaScript methods `fromCharCode` and `charCodeAt`. These features are:
+
+- **Text to ASCII Conversion**: This package can convert any text string into its corresponding ASCII code. This is helpful for text data encoding safely.
+- **ASCII to Text Conversion**: This package can also convert ASCII codes back into their corresponding text strings. This is helpful for safely decoding ASCII-encoded data.
+- **Easy to use**: The ASCII-Text Converter package is designed to be user-friendly and intuitive.
+- **Edge cases**: This package can handle edge cases such as null, undefined, empty strings, spaces, and special characters etc.
+- **Efficient**: Even with large data sets, this package performs ASCII-text conversions quickly and efficiently.
+- **Versatile**: Whether you need to convert ASCII to text or text to ASCII, this package has you covered.
 
 ## Browser Support
 The ASCII-Text Converter package is compatible with the latest versions of the following browsers:
